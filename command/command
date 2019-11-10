@@ -1,0 +1,19 @@
+//Download
+git pull origin develop/master
+
+//status
+git status
+
+//add
+git add filename
+
+//commit
+git commit -am 'commit message'
+
+//Upload
+git push origin develop
+
+
+Add a single Column:
+php artisan make:migration add_profile_to_users
+php artisan make:migration add_profile_and_bio_to_users
